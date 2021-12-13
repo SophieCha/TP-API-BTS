@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="diapo" id="diapo1">
+        <h1>🧐 Qu'est-ce qu'une API? 🤔</h1>
+      </div>
+
+      <div class="diapo" id="diapo2">
+        <p id="A"><span>A-</span> Application</p>
+        <p id="P"><span>P-</span> Programming</p>
+        <p id="I"><span>I-</span> Interface</p>
+        <p class="vf">🇫🇷: Interface de programmation d'applications</p>
+      </div>
+
+      <div class="diapo" id="diapo3">
+        <p>
+          Une API est un service externe, la plupart du temps c'est une fonction ou une base de données. Elle facilite l’interaction entre deux applications différentes
+          afin qu’elles puissent communiquer entre elles : elle sert
+          d’<strong>INTERMÉDIAIRE</strong>.
+        </p>
+      </div>
+
+      <img src="media/API.png" alt="schema API" />
+
+      <div class="diapo" id="diapo4">
+        <p>
+          Pour mieux comprendre imagine que tu es au restaurant 🍽️<br />
+          L'API c'est le serveur! Tu commandes puis il te ramène un plat 🍝
+          Entre les deux tu ne sais pas ce qu'il se passe 🙈<br />
+          -> On effectue une <b>REQUÊTE</b>, on obtient une <b>RÉPONSE</b>!
+        </p>
+      </div>
+
+      <img src="media/API-Visuel.jpg" alt="schéma API resto" />
+
+      <div class="diapo" id="diapo5">
+        <h2>Les API sont partout</h2>
+        <p>
+          <img src="media/METEO-LOGO.jpg" />
+
+          <img src="media/logo-google-maps.svg" /><br />
+          <img src="media/paypal.png" />
+          <img src="media/spotify.png" />
+          <img src="media/logo_clicrdv_2013.png" />
+        </p>
+      </div>
+      <div class="diapo" id="diapo6">
+        <p>
+          Sur le web on utilise des API REST (requête HTTP).<br />
+          La réponse renvoyée par l'API REST:
+        </p>
+      </div>
+      <div class="exemples">
+        <div class="xml">
+          <h3>Fichier XML 😵‍💫</h3>
+          <img src="./media/xml-exemple.jpg" alt="" />
+        </div>
+        <div class="json">
+          <h3>Fichier JSON 🥰</h3>
+          <img src="./media/exemple_json.png" alt="json" />
+        </div>
+      </div>
+
+      <div class="diapo" id="diapo7">
+        <h2>Pourquoi utiliser des API?</h2>
+        <p>
+          👉 Se simplifier la vie<br />
+          👉 Ajouter des fonctionnalités à son site web<br />
+          👉 Créer ses propres API et les monétiser<br />
+        </p>
+      </div>
+
+      <div class="diapo" id="diapo8">
+        <h2>Un exemple:</h2>
+        <img src="media/index.png" />
+        <p><em>Démo</em></p>
+      </div>
+      
+      <h3>Exemple de doc:</h3>
+      <img src="media/docMusicBrainz.png" />
+    
+    <div class="diapo" id="diapo9">
+      <h2>Construction de la requête:</h2>
+      <p id="requete">
+        "<span class="focusRed">http://musicbrainz.org/ws/2/</span
+        >recording<span class="focusGreen">?query=</span
+        ><span class="focusBlue">recording</span> :paradise%20and%20<span
+          class="focusBlue"
+          >artist</span
+        >:coldplay&<span class="focusGreen">limit=</span>5&fmt=json";
+      </p>
+    </div>
+    <div class="diapo" id="diapo10">
+      <p> <center><b>👩‍💻 Et maintenant à votre tour ! 👨‍💻</b></center></p>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

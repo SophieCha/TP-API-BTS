@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP BTS</title>
+    <link rel="stylesheet" href="tp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apiChat wrap">
+        <input
+          class="btnChat"
+          type="button"
+          value="nouveau chat"
+          onclick="afficheChats()"
+        />
+        <img class="chat" src="" alt="" id="cat" />
+        <p id="catInfo">📚 <a href="https://docs.thecatapi.com/" target="_blank">doc</a></p>
+      </div>
+
+      <div class="apiNasa wrap">
+        <input
+          class="btnNasa"
+          type="button"
+          value="image nasa"
+          onclick="nasa()"
+        />
+        <img class="imgNasa" class="nasa" src="" alt="" id="nasa" /><br />
+        <p>L'image du jour de la Nasa du 17 Mars 2019 🔝</p>
+        <p>Modifie la requête pour faire apparaître l'image du 17 août 2020.</p>
+        <p id="infoNasa"><em>Les informations de l'image: </em></p>
+        <p>
+          📚 Utiliser la
+          <a href="https://github.com/nasa/apod-api" target="_blank"> doc </a
+          >(-> "returned fields")
+        </p>
+      </div>
+
+      <div class="age wrap">
+        <form>
+          <input type="text" id="agef" />
+          <input
+            type="button"
+            value="???"
+            onclick="nameR(document.getElementById('agef').value)"
+          />
+        </form>
+        <p id="age"></p>
+
+        <p>📚 <a href="https://agify.io/#batch-usage">Doc</a></p>
+        <p>Rajoute un paramètre pour afficher les Michel français 🇫🇷</p>
+      </div>
+
+      <br />
+
+      <div class="activity wrap">
+        <input type="button" value="Je m'ennuie ! Que faire?" onclick="activity()" />
+        <p id="bored"></p>
+        <p>Comment faire pour obtenir uniquement le "type" d'activité?</p>
+        <p>🤔 Indice: Observe le JSON obtenu</p>
+      </div>
+
+
+      <div class="translation wrap">
+        <p>Un petit coup de pouce pour traduire? 🇬🇧 </p>
+       <input type="text" id="translation" />
+      <button onclick="translate(document.getElementById('translation').value)">
+      Je traduis!
+    </button>
+    <p>Traduction : <div id="traduit"></div></p></div>
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

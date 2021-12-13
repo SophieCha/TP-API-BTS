@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 75%;
+  display: block;
+
+  margin: 0 auto;
+}
+
+/*Image sans comportement spécifique */
+
+img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: 3px solid rgb(14, 21, 121);
+  max-width: 100%;
+}
+
+/* diapos général */
+.diapo {
+  display: inherit;
+  margin: 20px auto;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.918);
+  padding: 10px;
+  border: solid 2px rgb(16, 9, 78);
+  font-size: 30px;
+
+  width: inherit;
+  height: auto;
+}
+
+/* diapo 1*/
+
+#diapo1 {
+  height: 400px;
+}
+#diapo1 h1 {
+  text-align: center;
+  margin: 25% auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 38px;
+  color: rgb(16, 9, 78);
+}
+
+/*diapo 2 */
+
+#diapo2 span {
+  color: blueviolet;
+  font-size: 70px;
+  font-weight: bold;
+  padding-left: 100px;
+}
+
+#P {
+  margin-left: 60px;
+}
+
+#I {
+  margin-left: 120px;
+}
+
+.vf {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* diapo 3*/
+
+#diapo3 {
+  font-size: 25px;
+
+  text-align: center;
+  height: auto;
+}
+#diapo3 p {
+  /*background-color: rgba(14, 21, 121, 0.3);*/
+  border-radius: 10px;
+}
+
+/* diapo 4*/
+
+#diapo4 {
+  height: auto;
+  text-align: justify;
+}
+
+/* diapo 5*/
+
+#diapo5 {
+  text-align: center;
+  height: auto;
+}
+#diapo5 img {
+  width: 100px;
+  border: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+/*images xml JSon*/
+
+.exemples {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.exemples h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+.exemples img {
+  width: 98%;
+}
+
+/*requete musicbrainz, diapo9*/
+#diapo9 {
+  width: auto;
+}
+#requete {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(26, 24, 24);
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.focusBlue {
+  border: solid 2px blue;
+}
+
+.focusRed {
+  border: solid 2px red;
+}
+
+.focusGreen {
+  border: solid 2px yellow;
+}
+
+/* pour smartphone*/
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 80%;
+    display: block;
+    height: auto;
+    font-size: 15px;
+
+    margin: 0 auto;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  .diapo {
+    display: inherit;
+    margin: 5px auto;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.918);
+    padding: 10px;
+    border: solid 2px rgb(16, 9, 78);
+    font-size: 15px;
+    width: inherit;
+    height: auto;
+  }
+  #diapo2 span {
+    font-size: 15px;
+    padding: 0;
+  }
+
+  #P,
+  #I {
+    margin: 0px;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  #diapo5 img {
+    width: 30%;
+    padding: 5px;
+  }
+}

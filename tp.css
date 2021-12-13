@@ -1,0 +1,54 @@
+.wrap {
+  display: inherit;
+  margin: 20px auto;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.918);
+  padding: 10px;
+  border: solid 2px rgb(16, 9, 78);
+  font-size: 30px;
+
+  width: inherit;
+  height: auto;
+}
+
+/*.apiChat {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100px;
+}*/
+.chat,
+.imgNasa {
+  height: 300px;
+  border: none;
+
+  border-radius: 8px;
+}
+.apiNasa {
+  margin: 20px auto;
+}
+.blague {
+  background: rgb(17, 21, 22);
+  width: 70%;
+  height: auto;
+  color: cornsilk;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.blague h3 {
+  font-size: 1.5rem;
+  padding-top: 30px;
+  text-align: center;
+  margin: 10px 20px;
+}
+.blague p {
+  font-size: 1.2rem;
+  margin: 30px auto;
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 10px 20px;
+}
+
+p {
+  font-size: 15px;
+}
